@@ -33,14 +33,15 @@ h1{
     text-align: center;
 }
 
-button{
-    width: 100px;
-    height: 50px;
-    background-color: transparent;
-    border-radius: 2px;;
-    color: rgb(0, 0, 0);
+#play{
+    background-color: transparent; 
+     
 }
-button:hover{
+#btm{
+    width: 100px;
+    height: 30px;
+}
+#btm:hover{
     background-color: #eee;
     color: black;
 }
