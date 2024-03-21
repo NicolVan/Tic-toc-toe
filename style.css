@@ -1,0 +1,50 @@
+#board {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    gap: 5px;
+   
+}
+
+.column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+   
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #ffffff;
+}
+h1{
+    text-align: center;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 2px;;
+    color: rgb(0, 0, 0);
+}
+button:hover{
+    background-color: #eee;
+    color: black;
+}
+img{
+    width: 30px;
+    height: 30px;
+}
